@@ -1,15 +1,8 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>Projects</title>
-</head>
-<body>
-    <section id="projects" class="bg-light">
-        <div class="container-lg my-5">
+<?php
+    include('header.php');
+?>
+    <section id="projects">
+        <div class="container-lg my-2">
             <h3 class="fw-bold">Projects</h3>
             <div class="row justify-content-center my-5 border-bottom">
                 <div class="col-md-5">
@@ -23,7 +16,7 @@
                     </p>
                 </div>
                 <div class="col-md-5 d-md-block">
-                    <img class="img-fluid" src="./assets/shopper.png" alt="e-commerce">
+                    <img class="img-fluid" src="../assets/shopper.png" alt="e-commerce">
                     <a href="" class="btn btn-outline-secondary my-3 text-center">View in Github</a>
                 </div>
                 
@@ -38,16 +31,14 @@
                     </p>
                 </div>
                 <div class="col-md-5 d-md-block">
-                    <img class="img-fluid" src="./assets/Portfolio-1.png" alt="e-commerce">
+                    <img class="img-fluid" src="../assets/Portfolio-1.png" alt="e-commerce">
                     <a href="" class="btn btn-outline-secondary my-3 text-center">View in Github</a>
-                    <a href="/index.html" class="btn btn-outline-secondary my-3 text-center">Test-Return-Home</a>
                 </div>
                 
             </div>
         </div>
     </section>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
-</html>
+   <?php
+    include('footer.php');
+   ?>

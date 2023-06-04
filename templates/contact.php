@@ -1,16 +1,8 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Document</title>
-</head>
-<body>
+<?php
+    include('header.php');
+?>
     <!--Contact Form-->
-    <div class="container-lg my-5">
+    <div class="container-lg my-3">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-5">
                 <h3 class="fw-bold">
@@ -30,7 +22,7 @@
                     simiyuvic@outlook.com
                 </p>
             </div>
-            <div class="col-md-5 my-5">
+            <div class="col-md-5 my-3">
                 <form action="">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="name" placeholder=" e.g James Bond">
@@ -44,18 +36,16 @@
                         <input type="text" class="form-control" id="subject" placeholder=" Subject">
                         <label for="name">Subject</label>
                       </div>
-                      <div class="form-floating my-4">
+                      <div class="form-floating my-3">
                         <textarea class="form-control" id="query" style="height: 140px;"></textarea>
                         <label for="query" class="form-label">Your Query ...</label>
                       </div>
                       <a href="#" class="btn btn-outline-secondary">Submit</a>
-                      <a href="index.html" class="btn btn-outline-secondary">Test btn Home</a>
                 </form>
             </div>
         </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
-</html>
+
+<?php
+    include('footer.php');
+?>
