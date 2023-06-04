@@ -13,6 +13,11 @@
      
     <title>Victor Charles</title>
     <link rel="stylesheet" href="/css/main.css">
+    <style>
+      .error{
+        color : red;
+      }
+    </style>
     
 </head>
 <body>
