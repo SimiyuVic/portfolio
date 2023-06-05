@@ -1,7 +1,7 @@
 <?php
     $name_error = $email_error = $subject_error = $query_error = "";
 
-    $name = $email = $subject = $query = "";
+    $name = $email = $subject = $query = $success = "";
 
     if ($_SERVER["REQUEST_METHOD"] == "POST"){
         if(empty($_POST["name"])){
@@ -30,6 +30,22 @@
         }else{
             $query = test_input($_POST["query"]);
         }
+
+        if($name_error =='' and $email_error =='' and $subject_error == '' and $query_error == ''){
+            $message_body='';
+            unset($_POST['submit']);
+            foreach($_POST as $key => $value){
+                $message_body .= "$key: $value\n";
+            }
+
+            $to = 'simiyuvic@outlook.com';
+            $subject = 'Contact Form Submit';
+            if(mail($to, $subject, $message_body)){
+                $success = 'Message sent, Thank you for contacting us !';
+                $name = $email = $subject = $query = '';
+            }
+        }
+
     }
 
     function test_input($data){

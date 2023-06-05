@@ -46,6 +46,7 @@
                         <label for="query" class="form-label">Your Query ...</label>
                       </div>
                       <button type="submit" class="btn btn-outline-secondary">Submit</button>
+                      <div class="success"><?php echo $success ?></div>
                 </form>
             </div>
         </div>

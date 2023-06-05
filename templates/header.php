@@ -17,6 +17,12 @@
       .error{
         color : red;
       }
+      .success{
+        color: #ff9966;
+        text-align: centre;
+        font-weight: bold;
+        font-size: 14px;
+      }
     </style>
     
 </head>
