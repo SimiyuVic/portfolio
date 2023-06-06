@@ -14,16 +14,18 @@
                     <p class="lead text-muted">I am a professional Web Developer with more than 3 years experience .<br>With a strong foundation in HTML, CSS, Bootstrap and JavaScript,
                          I combine my technical skills with a keen eye for design to deliver exceptional web experiences.</p>
                     <div class="text-center">
-                        <button  class="btn btn-outline-primary" 
-                        style="
-                        width: 100px;
-                        height: 100px;
-                        padding: 13px 18px;
-                        border-radius: 60px;
-                        font-size: 15px;
-                        text-align: center;">
-                        Resume
-                        </button>
+                    <a href="./templates/resume.php">
+                            <button  class="btn btn-outline-primar" 
+                            style="
+                            width: 100px;
+                            height: 100px;
+                            padding: 13px 18px;
+                            border-radius: 60px;
+                            font-size: 15px;
+                            text-align: center;">
+                            Resume
+                            </button>
+                        </a>
                         <a href="./templates/projects.php">
                             <button  class="btn btn-outline-warning" 
                             style="

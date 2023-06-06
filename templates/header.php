@@ -39,7 +39,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./templates/resume.html">
+          <a class="nav-link active" aria-current="page" href="./templates/resume.php">
             <span class="border-end border-secondary px-2 ">Resume</span>
           </a>
         </li>
