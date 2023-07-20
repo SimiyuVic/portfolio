@@ -24,43 +24,44 @@
         font-weight: bold;
         font-size: 14px;
       }
+     
     </style>
     
 </head>
 <body>
     <!--Navigation Bar start-->
-    <nav class="navbar navbar-expand-lg bg-light py-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
         <div class="container-lg">
             <a href="#intro" class="navbar-brand">
                 <span class="fw-bold">Victor Simiyu</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#resume">
-            <span class="border-end border-secondary px-2 ">Resume</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">
-            <span class="border-start border-secondary ps-2">Contact</span>
-          </a>
-        </li>
-      </ul>
-    </div>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#resume">
+                <span class="border-end border-secondary px-2 ">Resume</span>
+            </a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link " href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact">
+                <span class="border-start border-secondary ps-2">Contact</span>
+            </a>
+            </li>
+        </ul>
+        </div>
         </div>
     </nav>
     <!--Navigation Bar end-->
 
     <!--Home page and intro start-->
     <section id="intro" class="my-5">
-        <div class="container-lg ">
+        <div class="container-lg">
             <div class="row justify-content-center my-5 align-items-center">
                 
                 <div class="col-md-5">
@@ -106,7 +107,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 d-md-5 text-center">
-                    <img class="img-fluid rounded-circle" src="./assets/profile-pic.jpg" alt="picture">
+                    <img class="img-fluid rounded-circle" src="assets/profile-pic.jpg" alt="picture">
                 </div>
             </div>
         </div>
